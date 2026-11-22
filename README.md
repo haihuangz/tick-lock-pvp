@@ -6,9 +6,9 @@
 
 **[下载 Tick Lock PvP 0.9.0（JAR）](https://github.com/haihuangz/tick-lock-pvp/releases/download/v0.9.0/tick-lock-pvp-0.9.0.jar)** · [版本说明](https://github.com/haihuangz/tick-lock-pvp/releases/tag/v0.9.0)
 
-需要 Minecraft Java 版 **26.2**、**Fabric Loader 0.19.3 或以上**、**Java 25 或以上**，以及适配 26.2 的 **[Fabric API](https://modrinth.com/mod/fabric-api)**。把模组 JAR 和 Fabric API 放进 `mods` 文件夹。联机时，服务端和所有参战客户端都要装同一版本的模组。ReplayMod 是可选的客户端录制工具，不装也能玩。
+另外下载适配 **Minecraft 26.2** 的最新版 **[Fabric API](https://modrinth.com/mod/fabric-api)**。把模组 JAR 和 Fabric API 放进 `mods` 文件夹。联机时，服务端和所有参战客户端都要装同一版本的模组。ReplayMod 是可选的客户端录制工具，不装也能玩。
 
-请下载 `.jar`，不要下载 GitHub 自动生成的 `Source code` 压缩包；压缩包只包含下载说明和许可证。
+请下载 JAR。
 
 ## 怎么玩
 
@@ -26,7 +26,9 @@ Freeze the world, plan your movement, aim, attacks and item use tick by tick, th
 
 **[Download v0.9.0 (JAR)](https://github.com/haihuangz/tick-lock-pvp/releases/download/v0.9.0/tick-lock-pvp-0.9.0.jar)** · [Release notes](https://github.com/haihuangz/tick-lock-pvp/releases/tag/v0.9.0)
 
-Requires **Minecraft Java Edition 26.2**, **Fabric Loader 0.19.3+**, **Java 25+**, and **[Fabric API](https://modrinth.com/mod/fabric-api)** for 26.2. Place both JARs in `mods`. On multiplayer, install the same mod version on the server and all participating clients. ReplayMod is optional and client-side. Use the `.jar` asset, not GitHub's automatically generated `Source code` archives.
+Also download the latest **[Fabric API](https://modrinth.com/mod/fabric-api)** for **Minecraft 26.2**. Place both JARs in `mods`. On multiplayer, install the same mod version on the server and all participating clients. ReplayMod is optional and client-side.
+
+Please download the JAR.
 
 Press **F7** in a solo world or run `/ticklock start` as the host or operator in multiplayer. Press **F8** to toggle input mode, use the **arrow keys** to select a cell, and press **Enter** to submit, then again once everyone is ready to confirm. `/ticklock ticks 20` changes the round length (1–100, default 5); `/ticklock timer on` enables the optional 60-second timer. See the guide book in the mod's creative tab for more.
 
